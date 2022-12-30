@@ -15,8 +15,9 @@ public class CustomerTest {
 
         ArrayList<Customer> customers = new ArrayList<>();
         Customer customer = new Customer(1011, "tomas");
-        Customer vipCustomer = new VIPCustomer(1012, "Jung");
+        VIPCustomer vipCustomer = new VIPCustomer(1012, "Jung");
         Customer goldCustomer = new GoldCustomer(1013, "Kim");
+
         customers.add(customer);
         customers.add(vipCustomer);
         customers.add(goldCustomer);
